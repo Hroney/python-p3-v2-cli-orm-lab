@@ -1,6 +1,7 @@
 
 from helpers import (
     exit_program,
+    clear,
     list_departments,
     find_department_by_name,
     find_department_by_id,
@@ -54,7 +55,7 @@ def main():
 
 
 def menu():
-    print("Please select an option:")
+    print("\nPlease select an option:")
     print("0. Exit the program")
     print("1. List all departments")
     print("2. Find department by name")
@@ -68,7 +69,7 @@ def menu():
     print("10: Create employee")
     print("11: Update employee")
     print("12: Delete employee")
-    print("13: List all employees in a department")
+    print("13: List all employees in a department\n")
 
 
 if __name__ == "__main__":
